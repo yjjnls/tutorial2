@@ -1,7 +1,6 @@
 # Java核心基础
-包含Java基础、Java进阶、Java应用开发扩展、Java应用开发扩展、Java安全基础和Java性能基础
-
-*    谈谈你对Java平台的理解
+## Java基础
+*    [谈谈你对Java平台的理解](doc/java_core_tech/1.谈谈你对Java平台的理解.md)
 *    Exception和Error有什么区别
 *    谈谈final、finally、finalize有什么不同
 *    强引用、软引用、弱引用、幻象引用有什么区别
@@ -15,6 +14,8 @@
 *    Java有几种文件拷贝方式（哪一种最高效）
 *    谈谈接口和抽象类有什么区别
 *    谈谈你知道的设计模式
+
+## Java进阶
 *    synchronized和ReentrantLock有什么区别呢
 *    synchronized底层如何实现（什么是锁的升级、降级）
 *    一个线程两次调用start()方法会出现什么情况
@@ -31,11 +32,18 @@
 *    谈谈你的GC调优思路
 *    Java内存模型中的happen-before是什么
 *    Java程序运行在Docker等容器环境有哪些新问题
+
+## Java安全基础
 *    你了解Java应用开发中的注入攻击吗
 *    如何写出安全的Java代码
+
+## Java性能基础
 *    后台服务出现明显“变慢”，谈谈你的诊断思路
 *    有人说“Lambda能让Java程序慢30倍”，你怎么看
+
+## Java应用开发扩展
 *    JVM优化Java代码时都做了什么
+*    谈谈MySQL支持的事务隔离级别，以及悲观锁和乐观锁的原理和应用场景
 
 ---
 # 深入理解Java虚拟机
